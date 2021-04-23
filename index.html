@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--css flies-->
+    <!--all.css-->
+    <link rel="stylesheet" href="assets/css/all.css">
+    <!--bootstrap.css-->
+    <link rel="stylesheet" href="assets/libs/bootstrap/bootstrap.css">
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--fontawesome.css-->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <!--fontawesome.css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <!--aos.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<!--====================================================-->
+
+<body style="font-family: 'Lato', sans-serif;">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="name text-center">
+                        <h2>NPS Scores</h2>
+                    </div>
+                    <div class="time_date">
+                        <p>Time: <span></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="activity">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="logo">
+                        <a href="">LOGO</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <button class="create btn-primary">
+                        Create A New Campaign
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="container">
+            <form class="form">
+                <label for="">Company Name:</label>
+                <select name="" id="Name">
+                    <option value="0">All</option>
+                    <option value="1">NPS</option>
+                    <option value="2">OPS</option>
+                    <option value="1">LPS</option>
+                </select>
+                <label for="">Campaign:</label>
+                <select name="" id="Campaign">
+                    <option value="0">All</option>
+                    <option value="1">NPS</option>
+                    <option value="2">OPS</option>
+                    <option value="1">LPS</option>
+                </select>
+                <label for="">Email Template</label>
+                <select name="" id="email">
+                    <option value="0">All</option>
+                    <option value="1">NPS</option>
+                    <option value="2">OPS</option>
+                    <option value="1">LPS</option>
+                </select>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="statics">
+        <div class="container">
+            <div class="static_info">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row no-gutters">
+                            <div class="col-lg-4">
+                                <div class="img">
+                                    <img src="assets/img/isometric-neon-banner-digital-technology-big-data-processing-server-room-future-tech_39422-982.jpg"
+                                        alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="img">
+                                    <img src="assets/img/isometric-timeline-infographic_23-2148930590.jpg" alt=""
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="img">
+                                    <img src="assets/img/four-steps-directional-line-infographic-template_1017-23165.jpg"
+                                        alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="container">
+            <label for="">Show Results:</label>
+            <select name="" id="result">
+                <option value="0">Show results</option>
+                <option value="1">10</option>
+                <option value="2">20</option>
+                <option value="3">30</option>
+            </select>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Company Name</th>
+                        <th scope="col">Response</th>
+                        <th scope="col">Avg. Rating</th>
+                        <th scope="col">Trend</th>
+                        <th scope="col">Latest Comment</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Demon</th>
+                        <td>Mark</td>
+                        <td>April,16</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td></td>
+                        <td><button type="button"><i class="far fa-trash-alt"></i></button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Demon</th>
+                        <td>Mark</td>
+                        <td>April,16</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td></td>
+                        <td><button type="button"><i class="far fa-trash-alt"></i></button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Demon</th>
+                        <td>Mark</td>
+                        <td>April,16</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td></td>
+                        <td><button type="button"><i class="far fa-trash-alt"></i></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--====================================================-->
+
+    <!--js plugins-->
+    <!--jquery.min.js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!--bootstrap.min.js-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script>
+        setInterval(displayTime, 1000);
+        function displayTime() {
+            var time = new Date();
+            var hrs = time.getHours();
+            var min = time.getMinutes();
+            var sec = time.getSeconds();
+            if (hrs > 12) {
+                hrs = hrs - 12;
+            }
+            if (hrs == 0) {
+                hrs = 12;
+            }
+            document.querySelector(".time_date p span").innerHTML = hrs + ":" + min + ":" + sec;
+        }
+    </script>
+
+
+</body>
+
+</html>

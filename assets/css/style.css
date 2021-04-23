@@ -1,0 +1,88 @@
+body{
+    background: rgb(19, 26, 44,.9);
+} 
+header {
+  border-bottom: 1px solid rgb(209, 204, 204);
+}
+.name h2{
+    color: #fff;
+}
+.logo a{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+.navbar {
+  background: rgb(19, 26, 44);
+}
+.form{
+    width: 100%;
+}
+label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+select {
+  width: 200px;
+  height: 30px;
+  margin-right: 20px;
+}
+.form button {
+  background: rgb(11, 191, 204);
+  border: none;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  float: right;
+}
+.activity{
+    padding: 10px 0;
+}
+.create{
+    float: right;
+    margin-top: 5px;
+ 
+}
+.static_info img{
+    width: 100%;
+    height: 200px;
+}
+.static_info {
+     margin: 20px 10%;
+    overflow: auto;
+    width: 80%;
+}
+.static_info .col-lg-4{
+    padding: 0 3px;
+}
+#result{
+    margin-top: 30px;
+}
+.table{
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-top: 20px;
+
+}
+tr{
+    border-bottom: 1px solid #dee2e6;
+}
+thead tr th:nth-child(4){
+    background: rgb(33, 161, 8);
+}
+thead tr th:nth-child(6){
+    background: rgb(69, 128, 238);
+}
+.time_date{
+    color: #fff; 
+}
+.time_date{
+    float: right;
+    margin-top: -33px;
+    background: rgb(44, 189, 15);
+    height: 25px;
+    padding: 0 5px;
+}
