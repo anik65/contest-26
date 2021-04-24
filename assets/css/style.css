@@ -1,22 +1,24 @@
-body{
-    background: rgb(19, 26, 44,.9);
-} 
+body {
+  background: rgb(19, 26, 44, 0.9);
+}
 header {
   border-bottom: 1px solid rgb(209, 204, 204);
+ padding-top: 20px;
 }
-.name h2{
-    color: #fff;
+.name h2 {
+  color: #fff;
 }
-.logo a{
-    font-size: 25px;
-    color: #fff;
-    font-weight: 600;
+.logo a {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
 }
 .navbar {
   background: rgb(19, 26, 44);
+  border-bottom: 1px solid #fff;
 }
-.form{
-    width: 100%;
+.form {
+  width: 100%;
 }
 label {
   font-size: 15px;
@@ -36,53 +38,107 @@ select {
   height: 30px;
   float: right;
 }
-.activity{
-    padding: 10px 0;
+.activity {
+  padding: 10px 0;
 }
-.create{
-    float: right;
-    margin-top: 5px;
- 
+.create {
+  float: right;
+  margin-top: 5px;
 }
-.static_info img{
-    width: 100%;
-    height: 200px;
+.static_info img {
+  width: 100%;
+  height: 200px;
 }
 .static_info {
-     margin: 20px 10%;
-    overflow: auto;
-    width: 80%;
+  margin: 20px 10%;
+  overflow: auto;
+  width: 80%;
 }
-.static_info .col-lg-4{
-    padding: 0 3px;
+.static_info .col-lg-4 {
+  padding: 0 3px;
 }
-#result{
-    margin-top: 30px;
+#result {
+  margin-top: 30px;
 }
-.table{
-    background: none;
+.table {
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+tr {
+  border-bottom: 1px solid #dee2e6;
+}
+thead tr th:nth-child(4) {
+  background: rgb(33, 161, 8);
+}
+thead tr th:nth-child(6) {
+  background: rgb(69, 128, 238);
+}
+.time_date {
+  color: #fff;
+}
+.time_date {
+  float: left;
+  margin-top: 10px;
+  background: rgb(44, 189, 15);
+  height: 25px;
+  padding: 0 5px;
+}
+.nav-tabs {
+  border: none;
+}
+.tab_list {
+  background: rgb(19, 26, 44);
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+}
+.nav-tabs .nav-link {
+  border-radius: 0;
+}
+.nav li a{
     color: #fff;
-    border: 1px solid #fff;
-    text-align: center;
-    margin-top: 20px;
-
 }
-tr{
-    border-bottom: 1px solid #dee2e6;
+.ads{
+    margin: 20px 0;
+    background: rgb(180, 177, 177);
 }
-thead tr th:nth-child(4){
-    background: rgb(33, 161, 8);
+.ads p{
+    padding-top: 14px;
 }
-thead tr th:nth-child(6){
+.ads button{
+    margin-top: 27px;
+    margin-right: 10px;
+    border: none;
     background: rgb(69, 128, 238);
+    color: #fff;
 }
-.time_date{
-    color: #fff; 
+.campaign h2{
+    font-size: 20px;
 }
-.time_date{
-    float: right;
-    margin-top: -33px;
-    background: rgb(44, 189, 15);
-    height: 25px;
-    padding: 0 5px;
+.create_cam h3{
+  margin-top: 40px;
 }
+.create_cam p{
+  color: #fff;
+}
+.process{
+  margin: 30px 0;
+}
+.process i{
+  margin-top: 40px;
+  color: #fff;
+  font-size: 20px;
+}
+.create_cam{
+  margin-bottom: 40px;
+}
+.profile{
+  float: right;
+  color: #fff;
+}
+.profile img{
+  border:3px solid #fff ;
+}
+ 
